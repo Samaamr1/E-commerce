@@ -1,0 +1,45 @@
+/* FloatingInput.css */
+
+.custom-form-floating {
+    position: relative;
+    margin-bottom: 1rem; 
+   
+  }
+  
+  .custom-form-floating .form-control {
+    border: none; 
+    border-bottom: 2px solid #ced4da; 
+    border-radius: 0; 
+  }
+  
+  .custom-form-floating .form-control:focus {
+    box-shadow: none; 
+    border-bottom-color: #145c14; 
+  }
+  
+  .custom-form-floating label {
+    position: absolute;
+    top: 0.5rem; 
+    left: 0;
+    padding: 0 0.75rem;
+    transition: all 0.2s ease-out;
+    color: #6c757d; 
+    pointer-events: none; 
+  }
+  
+  .custom-form-floating .form-control:not(:placeholder-shown) ~ label,
+  .custom-form-floating .form-control:focus ~ label {
+    top: -0.75rem; 
+    left: 0;
+    font-size: 90%; 
+    color: #145c14; 
+  }
+  .sub-tit{
+     color:#157347;
+     font-weight: 700;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+ 

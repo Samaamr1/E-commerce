@@ -1,0 +1,43 @@
+:root {
+  font-family: "Poppins", system-ui;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li{
+  list-style: none;
+}
+.product button{
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+ .product:hover button{
+opacity: 1;
+transform: translateY(0);
+ }
+ .no-underline {
+  text-decoration: none;
+  color: black;
+}
+
+
+.category-img{
+  height: 200px;
+}
+.h400{
+  height: 400px;
+}
+.h200{
+  height: 200px;
+}
